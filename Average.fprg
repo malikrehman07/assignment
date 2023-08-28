@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rehman"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 06:06:38 pm"/>
+        <attribute name="created" value="UmVobWFuO0RFU0tUT1AtOEQ4SEEwOTsyMDIzLTA4LTI4OzA1OjUyOjEwIHBtOzI5NTQ="/>
+        <attribute name="edited" value="UmVobWFuO0RFU0tUT1AtOEQ4SEEwOTsyMDIzLTA4LTI4OzA2OjA2OjM4IHBtOzE7MzA3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="One" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Any Number&quot;" newline="True"/>
+            <input variable="One"/>
+            <declare name="second" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Any Number&quot;" newline="True"/>
+            <input variable="Second"/>
+            <declare name="Third" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Any Number&quot;" newline="True"/>
+            <input variable="Third"/>
+            <declare name="Sum" type="Integer" array="False" size=""/>
+            <assign variable="Sum" expression="One+Second+third"/>
+            <output expression="Sum" newline="True"/>
+            <declare name="Average" type="Integer" array="False" size=""/>
+            <assign variable="Average" expression="Sum/3"/>
+            <output expression="Average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

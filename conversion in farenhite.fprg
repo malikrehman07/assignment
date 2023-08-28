@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rehman"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 06:34:17 pm"/>
+        <attribute name="created" value="UmVobWFuO0RFU0tUT1AtOEQ4SEEwOTsyMDIzLTA4LTI4OzA2OjMwOjI0IHBtOzI5NTY="/>
+        <attribute name="edited" value="UmVobWFuO0RFU0tUT1AtOEQ4SEEwOTsyMDIzLTA4LTI4OzA2OjM0OjE3IHBtOzE7MzA3MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Celsius" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Any Value&quot;" newline="True"/>
+            <input variable="Celsius"/>
+            <declare name="Sum" type="Integer" array="False" size=""/>
+            <assign variable="Sum" expression="Celsius*(9/5)"/>
+            <output expression="Sum" newline="True"/>
+            <declare name="Farenhite" type="Integer" array="False" size=""/>
+            <assign variable="Farenhite" expression="Sum+32"/>
+            <output expression="Farenhite" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

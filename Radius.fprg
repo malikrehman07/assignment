@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rehman"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 06:39:10 pm"/>
+        <attribute name="created" value="UmVobWFuO0RFU0tUT1AtOEQ4SEEwOTsyMDIzLTA4LTI4OzA2OjM0OjIwIHBtOzI5NTY="/>
+        <attribute name="edited" value="UmVobWFuO0RFU0tUT1AtOEQ4SEEwOTsyMDIzLTA4LTI4OzA2OjM5OjEwIHBtOzE7MzA2OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="radius" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Any Value&quot;" newline="True"/>
+            <input variable="radius"/>
+            <declare name="ValueofPi" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter The value of Pi&quot;" newline="True"/>
+            <input variable="ValueofPi"/>
+            <declare name="ValueofX" type="Integer" array="False" size=""/>
+            <assign variable="ValueofX" expression="radius*radius*ValueofPi"/>
+            <output expression="ValueofX" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

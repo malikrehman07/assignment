@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rehman"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 06:30:20 pm"/>
+        <attribute name="created" value="UmVobWFuO0RFU0tUT1AtOEQ4SEEwOTsyMDIzLTA4LTI4OzA2OjE5OjQ3IHBtOzI5Njg="/>
+        <attribute name="edited" value="UmVobWFuO0RFU0tUT1AtOEQ4SEEwOTsyMDIzLTA4LTI4OzA2OjMwOjIwIHBtOzE7MzA2MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="FirstNumber" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Any Number&quot;" newline="True"/>
+            <input variable="FirstNumber"/>
+            <declare name="SecondNumber" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Any Number&quot;" newline="True"/>
+            <input variable="SecondNumber"/>
+            <declare name="ValueOfY" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Any Number&quot;" newline="True"/>
+            <input variable="ValueOfY"/>
+            <declare name="Sum" type="Integer" array="False" size=""/>
+            <assign variable="Sum" expression="(FirstNumber+SecondNumber)/ValueOfY"/>
+            <output expression="Sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
